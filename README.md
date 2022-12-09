@@ -54,7 +54,7 @@ Open http://localhost:3000 to view it in your browser.
 
 ```
 git clone git@github.com:varungujjar/deutsche-bahn-challenge.git
-cd auto-bahn-challenge
+cd deutsche-bahn-challenge
 npm install
 npm start
 ```
