@@ -1,4 +1,8 @@
-# Deutsche Bahn’s Challenge
+![screenshot](assets/screenshot.png)
+
+# Deutsche Bahn Challenge
+
+Trip planner application using Deutsche Bahn open API from https://v5.db.transport.rest
 
 ## Libraries/ Tools used:
 
@@ -12,12 +16,13 @@
 ## Execution Process:
 
 - Understand different usability scenarios.
-- Understand on which devices will the application be viewed on.
-- Sketching the draft layout on a piece of paper.
+- Understand on which devices will the application be viewed.
+- Sketching the draft design layout on a piece of paper.
 - Identify and breakdown areas to reusable components.
 - Create, style components and pages.
 - Putting them all together and render using dynamic data.
-- Check performance and build sizes.
+- Structure code to be easily understandable to developers.
+- Optimize performance and build sizes.
 - Check functionality and write Unit Tests.
 
 ## Features :
@@ -44,11 +49,11 @@
 
 ### How to setup and run:
 
-Runs the app in the development mode.
+Runs the app in the development mode
 Open http://localhost:3000 to view it in your browser.
 
 ```
-git clone git@github.com:varungujjar/auto-bahn-challenge.git
+git clone git@github.com:varungujjar/deutsche-bahn-challenge.git
 cd auto-bahn-challenge
 npm install
 npm start
@@ -74,6 +79,6 @@ npm run build
 
 ## If it was a bigger project:
 
-- Would have chosen typescript.
+- Would have chosen Typescript.
 - Would have used React Forms where more fields were needed to be validated.
 - Using Redux/Context for API calls and data flow.
