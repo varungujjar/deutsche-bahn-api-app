@@ -57,8 +57,8 @@ Runs the app in the development mode
 Open http://localhost:3000 to view it in your browser.
 
 ```
-git clone git@github.com:varungujjar/deutsche-bahn-challenge.git
-cd deutsche-bahn-challenge
+git clone git@github.com:varungujjar/deutsche-bahn-api-app.git
+cd deutsche-bahn-api-app
 npm install
 npm start
 ```
