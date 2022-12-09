@@ -1,0 +1,61 @@
+{
+	"name": "auto-bahn-challenge",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": ".",
+	"jest": {
+		"transformIgnorePatterns": [
+			"node_modules/(?!(axios)/)'"
+		]
+	},
+	"dependencies": {
+		"@amir04lm26/react-modern-calendar-date-picker": "^1.0.1",
+		"@reduxjs/toolkit": "^1.9.0",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"axios": "^1.2.0",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.4",
+		"nock": "^13.2.9",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.4.3",
+		"react-scripts": "5.0.1",
+		"tw-elements": "^1.0.0-alpha12",
+		"web-vitals": "^2.1.4"
+	},
+	"devDependencies": {
+		"@testing-library/dom": "^8.19.0",
+		"@testing-library/user-event": "^14.4.3",
+		"eslint": "^8.27.0",
+		"eslint-plugin-jest-dom": "^4.0.3",
+		"eslint-plugin-react": "^7.31.10",
+		"eslint-plugin-testing-library": "^5.9.1",
+		"fix": "^0.0.6",
+		"prettier": "^2.7.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --verbose",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

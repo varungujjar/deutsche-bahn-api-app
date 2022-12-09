@@ -1,0 +1,1 @@
+Reserved for Redux or Context for larger applications.
