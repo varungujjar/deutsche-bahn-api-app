@@ -17,7 +17,7 @@ it('Test Journeys page with search query', async () => {
 	const user = userEvent.setup();
 	render(<Journeys />);
 
-	/* Enters the origin name and selects the second element from the locations list*/
+	/* Enters the origin name and selects the first station name from the locations list*/
 	serviceApi.get.mockResolvedValueOnce(locationResponse);
 
 	const inputFrom = screen.getByLabelText('From');
@@ -35,7 +35,7 @@ it('Test Journeys page with search query', async () => {
 	await user.click(selectfirstItem[0]);
 	expect(fromDropdown).not.toBeVisible();
 
-	/* Enters the destination name and selects the second element from the locations list*/
+	/* Enters the destination name and selects the second station name from the locations list*/
 	serviceApi.get.mockResolvedValueOnce(locationResponse);
 
 	const inputTo = screen.getByLabelText('To');
