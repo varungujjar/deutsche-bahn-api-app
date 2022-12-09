@@ -1,6 +1,6 @@
 ![screenshot](assets/screenshot.png)
 
-# Deutsche Bahn Challenge
+# Deutsche Bahn App
 
 Trip planner application using Deutsche Bahn open API from https://v5.db.transport.rest
 
