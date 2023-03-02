@@ -47,10 +47,6 @@ Trip planner application using Deutsche Bahn open API from https://v5.db.transpo
 - Showing more detailed information about Trains
 - There are places to improve. Still, I would not opt to do them all for a small problem domain like this one. As software engineers we need to find a balance.
 
-### Demo
-
-https://regal-crepe-309439.netlify.app
-
 ### How to setup and run:
 
 Runs the app in the development mode
